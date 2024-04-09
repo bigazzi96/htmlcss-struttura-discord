@@ -12,10 +12,21 @@ ul li{
     display: inline block;
 }
 
-header{
-   
-
 .primo-blocco{
     width: 60%;
     margin: 0 auto;
+    background-color: rgba(250, 235, 215, 0.83);
+}
+
+header{
+    background-color: rgb(37,94,233);
+    padding: 6rem;
+}
+
+nav{
+    background-color: rgba(0, 0, 255, 0.503);
+}
+
+.jumbotron{
+    background-color: bisque;
 }
