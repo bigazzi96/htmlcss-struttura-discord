@@ -65,7 +65,56 @@ height: 3rem;
 border-radius:30%;
 background-color: white;
 }
+
 .task-2{
     background-color: black;
     color: white;
+}
+
+div.colonna{
+    padding: 1,5rem;
+}
+
+.colonna-grande{
+    width: 64%;
+}
+
+.colonna-piccola{
+    width: 30%;
+}
+
+.flex{
+    display: flex;
+
+}
+
+main>section{
+padding: 4rem;
+}
+
+.flex-centered{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.contenitore{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pre-footer{
+    text-align: center;
+}
+
+.bottone-blue{
+    width: 16rem;
+    margin: 0,5rem;
+}
+
+.stelle{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
 }

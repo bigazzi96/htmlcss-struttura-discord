@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>discord</title>
     <link rel="stylesheet" href="../htmlcss-struttura-discord/css/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="contenitore">
     <header>
         <nav>
             <div class="logo">
@@ -37,11 +39,14 @@
 
     <main>
                 <!--Prima Sezione-->
-        <section class="container-main">
-            <div class="immagine-container">
-                <img src="img/item1.svg" alt="immagine-1">
+        <section class="container-main flex-centered">
+            <div class="colonna-grande">
+            <img src="img/item1.svg" alt="immagine-1">
+            </div>
+
+            <div class="colonna-piccola ">
                 <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
-                <p>
+                <p>      
                 I server Discord sono orcanizzati in canalil tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata
                 senza Intasare una chat ai gruppo.
                 </p>
@@ -49,39 +54,43 @@
         </section>
 
                 <!--Seconda Sezione-->
-        <section class="container-main">
-            <div class="immagine-container">
+        <section class="container-main flex-centered">
+            <div class="colonna-piccola">  
+            <h1>Dove trovarsi é facile</h1>
+            <p>
+            Mottiti comodo in un canale vocale ouiando hai tempo. Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover cniamare.
+            </p>
+            </div>  
+
+            <div class="colonna-grande">
                 <img src="img/item2.svg" alt="immagine-2">
-                <h1>Dove trovarsi é facile</h1>
-                <p>
-                Mottiti comodo in un canale vocale ouiando hai tempo. Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover cniamare.
-                </p>
-            </div>    
+            </div>  
         </section>
 
                 <!--Terza Sezione-->
-        <section class="container-main">
-            <div class="immagine-container">
-                <img src="img/item3.svg" alt="immagine-3">
+        <section class="container-main flex-centered">
+            <div class="colonna-grande">
+            <img src="img/item3.svg" alt="immagine-3">
+            </div>
+
+            <div class="colonna-piccola ">
                 <h1>Da pochi a un fandom</h1>
-                <p>
+                <p>      
                 Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati e molto altro.
                 </p>
-            </div>
-        </section> 
-
+            </div>    
+        </section>             
                 <!--Sezione Bassa-->
-        <section class="container-main">
-            <div class="container-main">
-                <h1>Tecnologia affidabile per tenersi in contatto</h1>
+        <section class="pre-footer">
+            <h1>Tecnologia affidabile per tenersi in contatto</h1>
                 <p>
                 Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza Fai ciao in video. quarda
                 altri amici giocare in streaming, o riunitevi in una sessione di diseano con la condivisione schermo. 
-                </p>    
-            </div>
-            <div class="immagine-container">
+                </p> 
                 <img src="img/item4-big.svg" alt="immagine-4">
-            </div>
+            <img src="img/stars.svg" alt="stelle">    
+            <h1>pronto per iniziare una nuova avventura</h1>
+            <input  class="bottone bottone-blue" type="submit" value="&blacktriangledown; Scarica per Mac">
         </section> 
     </main>
     <footer>
@@ -144,6 +153,6 @@
         <div>
             
         </div>
-   
+    </div>
 </body>
 </html>
