@@ -2,6 +2,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+
 }
 
 header{
@@ -12,6 +13,11 @@ header{
     display: flex: ;
     justify-content: space-between;
     margin: 0 .5rem;
+    @font-face {
+        font-family: 'Whitney';
+        font-style: normal;
+        font-weight: normal;
+        src: url(https://onedrive.live.com/download?resid=F87CD694B48033C9!109&authkey=!AOFbepGKctmbyqs&ithint=file%2cwoff) format('woff'); }
 }
 
 ul{
@@ -101,6 +107,9 @@ padding: 4rem;
 .contenitore{
     margin: 0 auto;
     max-width: 1200px;
+    font-size: 20px;
+    
+
 }
 
 .pre-footer{
@@ -117,4 +126,36 @@ padding: 4rem;
     margin: auto;
     width: 50%;
 }
+
+footer{
+    background-color: #23272a;
+    color: white;
+    padding: 2rem;
+}
+
+.lista-footer{
+    display:flex
+
+}
+
+.italia{
+ width: 35px;
+height: 24px;
+}
+
+.social{
+margin:0;}
+
+lista footer ul li:first-child{
+    color:green;
+  }
+
+  linea-footer{
+    border: 0;
+    border-top: 2px solid #CCC;
+  }
+
+.fine-footer{
+    display: flex;
+    justify-content: space-between;
 }
